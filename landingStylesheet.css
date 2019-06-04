@@ -27,7 +27,7 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: #F2706D;
+    color: #FFE1C0;
 }
 
 span {
@@ -85,7 +85,7 @@ h1:active:after {
 /* ADD FOCUS - Thanks to Adrian Roselli @aardrian */
 
 .wrapper h1 a:focus {
-    color: #F2706D;
+    color: #FFE1C0;
     outline: none;
 }
 
@@ -102,7 +102,7 @@ h5:before {
     overflow: hidden;
     max-width: 10em;
     white-space: nowrap;
-    color: #F2706D;
+    color: #FFE1C0;
     animation: loading 2s linear;
 }
 
