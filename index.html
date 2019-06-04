@@ -1,0 +1,248 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--   Main CSS-->
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+
+
+    <!--  Jquery and other things-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+    <link rel="stylesheet" href="css/animate.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <!--    Security   -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script>
+        function onSubmit(token) {
+         document.getElementById("contact-form").submit();
+       }
+     </script>
+
+
+    <!--     Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script>
+        $(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+    </script>
+
+    <script>
+        $('.navbar>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+        });
+    </script>
+
+    <title>PJ Wise: Web Development in Jensen Beach, Florida</title>
+
+
+
+
+
+</head>
+
+<body>
+
+    <!-- Main Container Start -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" width="100%">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div>
+                    <a class="navbar-brand navbar-left" href="#"><img src="PJW LOGO.png" height="90" width="150" class="mx-auto"></a>
+                </div>
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="#topPage">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#about">About</a>
+                    <a class="nav-item nav-link" href="#projects">Projects</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Resume
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="PearlsResume012019.docx">Word</a>
+                            <a class="dropdown-item" href="PearlsResume012019.pdf">PDF</a>
+                        </div>
+                    </li>
+                    <a class="nav-item nav-link" href="#contact">Contact</a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <!--End Nav    -->
+    <div id="topPage">
+        <div id="nameAni">
+            <p id="myName" data-aos=fade-right data-aos-duration=2000>Pearl Jamie Wise</p>
+            <p id="myJob" data-aos=fade-left data-aos-duration=2000>Web Developer</p>
+
+            <a href="#testBTN" id="testBTN" class="btn-lg btn-outline-dark" data-aos=fadeIn data-aos-duration=1600 data-aos-delay=1500>View More</a>
+        </div>
+    </div>
+
+    <section id="about">
+        <h2>ABOUT</h2>
+        <p>Hello, my name is Pearl Jamie Wise and I am a Front-End Web Developer based out of Jensen Beach, Florida. I have a passion for creating mobile-friendly websites and I am currently seeking a full-time position along with freelance work for individuals or small businesses.</p>
+
+        <h4 id="know">WHAT I KNOW</h4>
+
+        <div class="skillsLogos">
+
+            <figure class="logoItem" data-aos=fade-up>
+                <img src="images/html-icon.png">
+                <figcaption class="logoCap">HTML</figcaption>
+            </figure>
+            <figure class="logoItem" data-aos=fade-up data-aos-delay=400>
+                <img src="images/js-icon.png">
+                <figcaption class="logoCap">JAVASCRIPT</figcaption>
+            </figure>
+            <figure class="logoItem" data-aos=fade-up data-aos-delay=200>
+                <img src="images/css-icon.png">
+                <figcaption class="logoCap">CSS</figcaption>
+            </figure>
+            <figure class="logoItem" data-aos=fade-up data-aos-delay=100>
+                <img src="images/boot-icon.png">
+                <figcaption class="logoCap">BOOTSTRAP</figcaption>
+            </figure>
+
+            <figure class="logoItem" data-aos=fade-up data-aos-delay=500>
+                <img src="images/php-icon.png">
+                <figcaption class="logoCap">&nbsp;PHP&nbsp;</figcaption>
+            </figure>
+
+            <figure class="logoItem" data-aos=fade-up data-aos-delay=300>
+                <img src="images/photoshop-icon.png">
+                <figcaption class="logoCap">PHOTOSHOP</figcaption>
+            </figure>
+
+
+
+
+            <h4 id="learning">WHAT I AM LEARNING</h4>
+            <figure class="logoItem" data-aos=fade-up data-aos-delay=300>
+                <img src=" images/jquery-icon.png">
+                <figcaption class="logoCap">&nbsp;JQUERY</figcaption>
+            </figure>
+            <figure class="logoItem" data-aos=fade-up data-aos-delay=200>
+                <img src=" images/react-icon.png">
+                <figcaption class="logoCap">REACT</figcaption>
+            </figure>
+            <figure class="logoItem" data-aos=fade-up data-aos-delay=100>
+                <img src=" images/sass-icn.png">
+                <figcaption class="logoCap">SASS</figcaption>
+            </figure>
+            <figure class="logoItem" data-aos=fade-up>
+                <img src=" images/mysql-icon.ico">
+                <figcaption class="logoCap">MYSQL</figcaption>
+            </figure>
+
+        </div>
+
+    </section>
+
+    <section id="projects">
+        <h2>PROJECTS</h2>
+
+        <div class="row">
+            <div class="card" style="width: 18rem;" data-aos=flip-down data-aos-delay=400>
+                <img class="card-img-top" src="images/under4-screen.png" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Website made for a family business: Under4Transport.
+                        <br>____<br>HTML, CSS, Javascript, Bootstrap &amp; PHP
+                    </p>
+                    <a href="under4trans/index.html" class="projectBTN btn-lg btn-outline-dark" style="color:black">Visit Website</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;" data-aos=flip-down data-aos-delay=600>
+                <img class="card-img-top" src="images/pbcs-screen.png" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">PBCS page made while I was learning Bootstrap. <br>____<br>
+                        HTML, CSS &amp; Bootstrap<br><br></p>
+                    <a href="enhanced_start/enhanced_start.html" class="projectBTN btn-lg btn-outline-light">Visit Website</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;" data-aos=flip-down data-aos-delay=800>
+                <img class="card-img-top" src="dunnRite/logoNav.png" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Another website for a small, family owned business.<br>____<br>HTML, CSS, Javascript, Bootstrap &amp; PHP</p>
+                    <a href="dunnRite/index.html" class="projectBTN btn-lg btn-outline-dark" style="color:black">Visit Website</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>WANT TO GET IN TOUCH?</h2>
+            <form class="col" id="contact-form" action="contactForm.php" method="POST">
+                <input name="name" type="text" class="feedback-input" placeholder="Name" required />
+                <input name="email" type="text" class="feedback-input" placeholder="Email" required />
+                <textarea name="message" class="feedback-input" placeholder="Message"></textarea>
+                <input type="submit" value="SUBMIT" />
+            </form>
+    </section>
+
+    <footer class="container-fluid">
+            <div class="row">
+                <div class="col-6">
+                    <a href="#topPage" class="copyright">
+                        <script language="javascript" type="text/javascript">
+                            var today = new Date()
+                            var year = today.getFullYear()
+                            document.write(year)
+                        </script> © pjwisedevelopment
+                    </a>
+                </div>
+    
+                <div class="col-xs">
+                    <a class="footNum" href="https://github.com/pj-wise">GitHub: https://github.com/pj-wise</a>
+                    <br>
+                    <a class="footNum" href="tel:8478099721">TEL: (847)809-9721</a>
+                    <br>
+                    <a class="footNum" href="mailto:pjay.wise@gmail.com">pjay.wise@gmail.com</a>
+                    <br>
+                    
+    
+                </div>
+            </div>
+        </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+    </script>
+
+    <!-- Optional JavaScript -->
+
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,30 @@
+body {
+    background-color: #d57f30;
+    font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+
+.navbar {
+    position: fixed;
+    top: -5;
+    width: 100%;
+    padding-bottom: -3rem;
+    padding-top: .5rem;
+    margin-top: -2.5rem;
+    background-color: #df020b;
+}
+
+.navbar-toggler {
+    margin-top: 0.5rem;
+}
+
+.nav-item {
+    margin-top: .5rem;
+}
+
+
+.navbar-brand {
+    margin-bottom: -1rem;
+}
